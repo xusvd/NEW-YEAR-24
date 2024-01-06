@@ -1,0 +1,32 @@
+:root[data-theme="light"] {
+    --text: #112A46;
+    --background: #F1F7ED;
+    --primary: #243E36;
+    --secondary: #8abb90;
+    --accent: #72d967;
+  }
+  :root[data-theme="dark"] {
+    --text: #b9d2ee;
+    --background: #0c1208;
+    --primary: #c1dcd4;
+    --secondary: #44744a;
+    --accent: #319726;
+  }
+  body{
+    padding:5%;
+    margin:2%;
+  }
+  #one{
+    background-color: #F1F7ED;
+    /* height: 150px;
+    width: 300px; */
+    width: fit-content;
+    border-radius: 2%;
+    padding: 5%;
+    color: #243E36;
+  }
+
+  #greeting{
+    font-size:5rem;
+    width:fit-content;
+  }

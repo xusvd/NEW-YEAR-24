@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="../Basics/index.html">Basics</a>
+        </nav>
+        <h1>2024</h1>
+    </header>
+    <section>
+        <p id="greeting">Happy New year!</p>
+
+        <div id="one">
+            <input type="text" id="userName" placeholder="Please enter your name">
+            <br>
+            <button id="sendHeart" onclick="sendHeart()">💝</button>
+        </div>
+        <div id="two">
+           
+            <script>
+                var input = document.getElementById("userName");
+                input.addEventListener("keypress", function(event) {
+                  if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("sendHeart").click();
+                  }
+                });
+                </script>
+        </div>
+
+        
+    </section>
+    <footer></footer>
+    
+</body>
+</html>
