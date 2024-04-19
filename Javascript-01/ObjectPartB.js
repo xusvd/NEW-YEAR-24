@@ -75,6 +75,8 @@ console.log(oneUser.hasOwnProperty('email'));
 console.log();
 console.log('-------Part 3 ---------------');
 console.log();
+
+
 // de-structuring an object
 
 const course = {
@@ -84,5 +86,17 @@ const course = {
 }
 
 // course.cInstructor
-const {cInstructor: admin} = course
-console.log(admin);
+const {cInstructor: cI} = course
+console.log(cI);
+
+// destructuring done
+
+// API 
+
+// {
+//     "username : "utpal",
+//     "age": "20"
+
+// }
+
+// JSON
